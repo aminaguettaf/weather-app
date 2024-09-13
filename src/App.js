@@ -21,9 +21,9 @@ function App() {
   const[iconClass, setIconClass]= useState('');
   const[tip, setTip] = useState('');
   const weatherRef = useRef(null);
-  
+
   const searchPressed = ()=>{
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=02f159f56e01ddaee4eb637903ee4690`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=a2e298b208944a212054cb00eaf36b06`)
     .then(res=>res.json())
     .then(data=>setWeather(data))
     setSearch('');
