@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
