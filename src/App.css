@@ -152,5 +152,29 @@ body{
     justify-content: center;
     gap: 20px;
   }
-
+}
+@media (max-width: 550px) {
+  .input-container{
+    flex-direction: column;
+  }
+  .app-weather .infos{
+    flex-direction: column;
+  }
+  .app-weather .infos .info{
+    text-align: center;
+    width: 100%;
+  }
+  .app-weather .desc{
+    padding: 5px !important;
+    width: 100%;
+  }
+  .app-weather .second h3{
+    font-size: 14px;
+  }
+  .app-weather .second p{
+    font-size: 12px;
+  }
+  .app-weather .second .infos{
+    gap: 10px !important;
+  }
 }
